@@ -411,8 +411,8 @@ def evaluate(best_sum_loss, best_final_loss, best_flag, lr):
 Global_Train_Steps = 50 
 Optimizee_Train_Steps = 100
 UnRoll_STEPS = 20
-Evaluate_period = 1 #可修改
-optimizer_lr = 0.1 #可修改
+Evaluate_period = 1 
+optimizer_lr = 0.1 
 global_loss_list ,flag = Learning_to_learn_global_training( LSTM_BlackBox_Optimizee,
                                                             Global_Train_Steps,
                                                             Optimizee_Train_Steps,
@@ -447,11 +447,11 @@ def evaluate(best_sum_loss, best_final_loss, best_flag, lr):
         best_flag = True
         
     return best_sum_loss, best_final_loss, best_flag
-Global_Train_Steps = 50 #可修改1000
-Optimizee_Train_Steps = 100#######100
+Global_Train_Steps = 50 
+Optimizee_Train_Steps = 100
 UnRoll_STEPS = 20
-Evaluate_period = 1 #可修改
-optimizer_lr = 0.1 #可修改
+Evaluate_period = 1
+optimizer_lr = 0.1
 global_loss_list ,flag = Learning_to_learn_global_training( LSTM_BlackBox_Optimizee_lr,
                                                             Global_Train_Steps,
                                                             Optimizee_Train_Steps,
