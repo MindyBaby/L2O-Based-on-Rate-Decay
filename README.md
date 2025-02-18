@@ -9,3 +9,5 @@ Adaptability: L2O can dynamically adjust optimization strategies for different t
 Data-driven: By learning from historical data, L2O can uncover patterns and insights that traditional optimization methods may not capture.
 Time and resource efficiency: In complex or high-dimensional problems, L2O can quickly identify suitable optimization methods, saving time on manual adjustments.
 Optimization strategy generation: The trained model can generate appropriate optimization strategies for new tasks without relying on traditional hand-designed optimization methods.
+### 4. Some limitations of L2O:
+L2O generally lacks control over the magnitude of iterations and often relies directly on the updating of model parameters, which may lead to gradient explosions or other instability issues.
