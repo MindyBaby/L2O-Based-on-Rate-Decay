@@ -1,5 +1,5 @@
 # Learning to Optimize based on Rate Decay
-The project conducts comprehensive benchmarking of existing learning optimization methods across different problems. We release the simulated data as experiments to promote reproducible research and fair benchmarking in the L2O field.
+The project conducts comprehensive benchmarking of existing learning optimization methods across different problems. We release the simulated data as experiments to promote reproducible research and fair benchmarking in the L2O field. Paper：Learning to optimize based on rate decay, The Computer Journal, https://doi.org/10.1093/comjnl/bxaf012
 ### 1. Introuduce:
 Learning to Optimize (L2O) is a technique that uses machine learning to automatically learn optimization algorithms. Traditional optimization algorithms, such as SGD and Adam, are typically designed based on predefined rules and assumptions, whereas L2O learns how to optimize in a data-driven manner, adapting the optimization strategy according to the specific characteristics of the problem.
 ### 2. The core idea of L2O:
